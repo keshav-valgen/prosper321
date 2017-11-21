@@ -1,7 +1,7 @@
 #'Industry ranking
 #'
 #'This function ranks a categorical variable from a numeric variable
-
+#'@import RForcecom
 #'@import dplyr
 #'@export ranks
 
