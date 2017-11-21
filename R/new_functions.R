@@ -1,3 +1,15 @@
+#' Finding subsetting functions for prospervue
+#' @import jsonlite
+#' @import dplyr
+#' @import RForcecom
+
+#' @rdname slider
+#' @rdname data_clean
+#' @rdname ranker
+#' @rdname index
+#' @rdname slider2
+#' @rdname updater
+
 #'@export slider
 #'@export data_clean
 #'@export ranker
