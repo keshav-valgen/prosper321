@@ -6,6 +6,9 @@
 \usage{
 slider(var, iter)
 }
+\arguments{
+\item{iter}{}
+}
 \description{
 This function builds a categorical variable from a numeric variable
 }
