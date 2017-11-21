@@ -17,6 +17,7 @@ Suggests:
     rmarkdown
 Imports: 
     dplyr,
+    fuzzyjoin,
     jsonlite,
     httr, 
     methods, 
