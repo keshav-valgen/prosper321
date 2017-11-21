@@ -11,8 +11,10 @@ Encoding: UTF-8
 Depends: R (>= 3.3.0)
 LazyData: true
 RoxygenNote: 6.0.1
-Suggests:
-    testthat
+Suggests: 
+    testthat,
+    knitr,
+    rmarkdown
 Imports: 
     dplyr,
     jsonlite,
@@ -20,6 +22,6 @@ Imports:
     methods, 
     plyr, 
     RCurl,
-    RForcecom,
     utils, 
     xml2
+VignetteBuilder: knitr
