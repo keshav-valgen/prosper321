@@ -14,8 +14,7 @@ RoxygenNote: 6.0.1
 Suggests: 
     testthat,
     knitr,
-    rmarkdown,
-    RForcecom
+    rmarkdown
 Imports: 
     dplyr,
     jsonlite,
