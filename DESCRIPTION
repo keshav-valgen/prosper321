@@ -25,6 +25,5 @@ Imports:
     RCurl,
     utils, 
     xml2,
-    fuzzyjoin,
     stringr
 VignetteBuilder: knitr
