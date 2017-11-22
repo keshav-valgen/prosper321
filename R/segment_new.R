@@ -3,9 +3,9 @@
 #'This function build a numeric variable from a categorical variable
 #'@importFrom RForcecom install.packages
 #'@import dplyr
-#'@export
+#'@export segment
 
-segment_new <- function(access_token, instance_url, object, field){
+segment <- function(access_token, instance_url, object, field){
 
 
   instance_u <- paste0(instance_url,'/')
