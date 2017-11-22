@@ -24,6 +24,5 @@ Imports:
     RCurl,
     utils, 
     xml2,
-    stringr,
-    RForcecom
+    stringr
 VignetteBuilder: knitr
