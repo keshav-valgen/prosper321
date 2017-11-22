@@ -24,5 +24,6 @@ Imports:
     plyr, 
     RCurl,
     utils, 
-    xml2
+    xml2,
+    fuzzyjoin
 VignetteBuilder: knitr
