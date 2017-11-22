@@ -1,7 +1,7 @@
 #'Doing String matching
 #'
 #' This fucntion matches two strings and give the count that how many matched
-#' @import fuzzyjoin
+#' @importFrom fuzzyjoin install.packages
 #' @import dplyr
 #' @export text_match
 
