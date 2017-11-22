@@ -7,5 +7,5 @@
 segment_new(access_token, instance_url, object, field)
 }
 \description{
-This function builds a categorical variable from a numeric variable
+This function build a numeric variable from a categorical variable
 }
