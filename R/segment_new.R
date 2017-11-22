@@ -3,7 +3,7 @@
 #'This function build a numeric variable from a categorical variable
 #'@importFrom RForcecom install.packages
 #'@import dplyr
-#'@export segment_new
+#'@export
 
 segment_new <- function(access_token, instance_url, object, field){
 
