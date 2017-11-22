@@ -1,6 +1,6 @@
 #'Segment
 #'
-#'This function build a numeric variable from a categorical variable
+#'This function build a categorical variable from a numeric variable
 #'@importFrom RForcecom install.packages
 #'@import dplyr
 #'@export segment
