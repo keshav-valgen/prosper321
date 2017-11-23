@@ -1,11 +1,11 @@
-#'Segment
+#'Segmenting the numeric field
 #'
 #'This function build a categorical variable from a numeric variable
 #'@importFrom RForcecom install.packages
 #'@import dplyr
-#'@export segment
+#'@export segment_new
 
-segment <- function(access_token, instance_url, object, field){
+segment_new <- function(access_token, instance_url, object, field){
 
 
   instance_u <- paste0(instance_url,'/')
