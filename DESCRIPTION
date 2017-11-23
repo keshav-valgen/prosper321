@@ -9,8 +9,7 @@ Description: More about what it does (maybe more than one line)
 License: What license is it under?
 Encoding: UTF-8
 Depends: 
-    R (>= 3.3.0),
-    RForcecom
+    R (>= 3.3.0)
 LazyData: true
 RoxygenNote: 6.0.1
 Suggests: 
@@ -26,5 +25,6 @@ Imports:
     RCurl,
     utils, 
     xml2,
-    stringr
+    stringr,
+    RForcecom
 VignetteBuilder: knitr
