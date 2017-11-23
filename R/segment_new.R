@@ -1,7 +1,7 @@
 #'Segmenting the numeric field
 #'
 #'This function build a categorical variable from a numeric variable
-#'@import RForcecom
+#'@importFrom RForcecom install.packages
 #'@import dplyr
 #'@export segment_new1
 
