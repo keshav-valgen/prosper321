@@ -4,6 +4,7 @@
 #'@importFrom RForcecom install.packages
 #'@import dplyr
 #'@export ranks
+#'
 
 ranks <- function(access_token, instance_url, object, depfield, indfield, newname){
 
