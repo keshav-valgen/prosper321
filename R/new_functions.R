@@ -1,21 +1,13 @@
 #' Finding subsetting functions for prospervue
 #' @import jsonlite
 #' @import dplyr
-#'
 
-#' @rdname slider
-#' @rdname data_clean
-#' @rdname ranker
-#' @rdname index
-#' @rdname slider2
-#' @rdname updater
-
-#'@export slider
-#'@export data_clean
-#'@export ranker
-#'@export index
-#'@export slider2
-#'@export updater
+#' @export slider
+#' @export data_clean
+#' @export ranker
+#' @export index
+#' @export slider2
+#' @export updater
 
 
 slider <- function(var, iter) # 2 inputs; The numeric variable to convert and Number of cuts

@@ -19,12 +19,5 @@ Suggests:
 Imports: 
     RForcecom,
     dplyr,
-    jsonlite,
-    httr, 
-    methods, 
-    plyr, 
-    RCurl,
-    utils, 
-    xml2,
-    stringr
+    jsonlite
 VignetteBuilder: knitr
