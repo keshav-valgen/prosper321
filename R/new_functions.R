@@ -1,4 +1,7 @@
 #' Finding subsetting functions for prospervue
+#'
+#'
+#' @import RForcecom
 #' @import jsonlite
 #' @import dplyr
 
