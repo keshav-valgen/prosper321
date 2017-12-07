@@ -17,7 +17,6 @@ Suggests:
     knitr,
     rmarkdown
 Imports: 
-    RForcecom,
     dplyr,
     jsonlite
 VignetteBuilder: knitr
