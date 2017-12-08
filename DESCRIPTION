@@ -16,5 +16,6 @@ Suggests:
     testthat
 Imports: 
     dplyr,
-    jsonlite
+    jsonlite,
+    RForcecom
 VignetteBuilder: knitr
