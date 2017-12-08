@@ -4,6 +4,9 @@
 #' @import RForcecom
 #' @import jsonlite
 #' @import dplyr
+#' @importFrom("stats", "na.omit", "quantile")
+#' @importFrom("utils", "tail")
+
 
 #' @export slider
 #' @export data_clean
