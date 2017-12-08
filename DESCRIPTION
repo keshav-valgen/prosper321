@@ -13,7 +13,8 @@ Depends:
 Imports: 
     dplyr,
     jsonlite,
-    RForcecom
+    utils (>= 3.4.2),
+    stats (>= 3.4.2)
 LazyData: true
 RoxygenNote: 6.0.1
 Suggests: 
