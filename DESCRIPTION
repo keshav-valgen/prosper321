@@ -17,5 +17,6 @@ Suggests:
     RForcecom
 Imports: 
     dplyr,
-    jsonlite
+    jsonlite,
+    RForcecom
 VignetteBuilder: knitr
