@@ -11,6 +11,8 @@ Encoding: UTF-8
 Depends: 
     R (>= 3.3.0)
 Imports: 
+    jsonlite,
+    dplyr,
     RForcecom,
     RCurl
 LazyData: true

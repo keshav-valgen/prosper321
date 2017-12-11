@@ -1,8 +1,10 @@
-#'Segment
+#' Segment
 #'
-#'This function builds a categorical variable from a numeric variable
-#'@import RForcecom
-#'@export segment
+#' This function builds a categorical variable from a numeric variable
+#' @import RForcecom
+#' @import dplyr
+#' @import jsonlite
+#' @export segment
 
 segment <- function(access_token, instance_url, object, field){
 

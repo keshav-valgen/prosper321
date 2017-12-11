@@ -1,8 +1,11 @@
 #'Industry ranking
 #'
 #'This function ranks a categorical variable from a numeric variable
-#'@import RForcecom
-#'@export ranks
+
+#' @import RForcecom
+#' @import jsonlite
+#' @import dplyr
+#' @export ranks
 
 ranks <- function(access_token, instance_url, object, depfield, indfield, newname){
 
