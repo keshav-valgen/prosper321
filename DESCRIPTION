@@ -15,7 +15,8 @@ Imports:
     jsonlite,
     utils (>= 3.4.2),
     stats (>= 3.4.2),
-    RForcecom
+    RForcecom,
+    RCurl
 LazyData: true
 RoxygenNote: 6.0.1
 Suggests: 
