@@ -12,7 +12,8 @@ Depends:
     R (>= 3.3.0)
 Imports: 
     jsonlite,
-    dplyr
+    dplyr,
+    RForcecom
 LazyData: true
 RoxygenNote: 6.0.1
 Suggests: 
