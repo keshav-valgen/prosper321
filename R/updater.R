@@ -13,7 +13,6 @@
 #' @export
 #'
 
-
 updater <- function(access_token, instance_url, myobject, data){
 
   instance_u <- paste0(instance_url,'/')
