@@ -12,9 +12,7 @@ Depends:
     R (>= 3.3.0)
 Imports: 
     jsonlite,
-    dplyr,
-    RCurl,
-    stringr
+    dplyr
 LazyData: true
 RoxygenNote: 6.0.1
 Suggests: 
