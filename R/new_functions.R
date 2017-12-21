@@ -4,7 +4,6 @@
 #' @import RForcecom
 #' @import jsonlite
 #' @import dplyr
-#' @import RCurl
 
 
 #' @export slider

@@ -13,7 +13,8 @@ Depends:
 Imports: 
     jsonlite,
     dplyr,
-    RCurl
+    RCurl,
+    stringr
 LazyData: true
 RoxygenNote: 6.0.1
 Suggests: 
