@@ -1,21 +1,20 @@
-#'Segmenting the numeric field
+#'Segment
 #'
-#'This function build a categorical variable from a numeric variable
-#' @import RForcecom
-#' @import jsonlite
-#' @import dplyr
-#' @export segment_new1
+#'This function builds a categorical variable from a numeric variable
+#'@import RForcecom
+#'@import dplyr
+#'@export segment
 
-segment_new1 <- function(access_token, instance_url, object, field){
 
+segment <- function(access_token, instance_url, object, field, newname){
 
   instance_u <- paste0(instance_url,'/')
   api <- '36.0'
-
-  myquery <- paste0('Select Id, ', field,' FROM ', object)
+  myobject <- object
+  myquery <- paste0('Select Id, ', field,' FROM ', myobject)
   session <- c(sessionID = access_token,instanceURL = instance_u, apiVersion = api)
 
-  data1 <- rforcecom.bulkQuery(session, myquery, object)
+  data1 <- rforcecom.bulkQuery(session, myquery, myobject)
   #data1 <- na.omit(data1)
 
   # Select Missing values , Add new field and filled with MISSING level
@@ -29,10 +28,8 @@ segment_new1 <- function(access_token, instance_url, object, field){
   if(nrow(new_DF1) > 0){
     new_DF1$dist = "ZERO VALUES"
   }
-
   # Data Treatment starts Here
   data2 <- data1[data1[,2] != 0 & !(is.na(data1[,2])),]
-
   data3 <- subset(data2, select = c(2))
   data3 <- slider(data3, 5)
   data3 <- cbind(data2, data3) # Derived values are binded to the original data
@@ -49,5 +46,6 @@ segment_new1 <- function(access_token, instance_url, object, field){
   data1 <- subset(data3, select = c("Id", "dist"))
   colnames(data1) <- c("strId", "dist")
 
-  return(data1)
+  updater(access_token, instance_url, myobject, data1)
 }
+
