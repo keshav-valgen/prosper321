@@ -21,7 +21,7 @@ predictor <- function(access_token, instance_url, object, numfield, catfield, ne
 
     if(length(unique(categorical)) == 2 ){
 
-      categorical<- as.factor(categorical) # If the numeric variable is discreet; ie.. has two levels, 1 and 0, convert them to factor.
+      categorical<- as.factor(categorical) # If the numeric variable is discrete; ie.. has two levels, 1 and 0, convert them to factor.
 
     }else{
 
