@@ -24,4 +24,5 @@ ranks <- function(access_token, instance_url, object, depfield, indfield, newnam
 
   updater(access_token, instance_url, object, data1)
   return(data1)
+
 }
