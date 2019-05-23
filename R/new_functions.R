@@ -5,7 +5,6 @@
 #' @import jsonlite
 #' @import dplyr
 
-
 #' @export slider
 #' @export data_clean
 #' @export ranker
